@@ -37,6 +37,7 @@ public class ArrayVSLinkedList {
     /**
      * Adds 100,000 elements to the given List.<br>
      * Prints out the time taken.
+     * @param list the List to be added
      */
     public static void addElementsToList(List<Integer> list) {
         startTime = System.currentTimeMillis();
@@ -50,6 +51,7 @@ public class ArrayVSLinkedList {
     /**
      * Access the given List at random position for 100,000 time.<br>
      * Prints out the time taken.
+     * @param list the List to be accessed
      */
     public static void randomAccessedToList(List<Integer> list) {
         rnd = new Random(seed);
